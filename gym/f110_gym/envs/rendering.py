@@ -66,7 +66,7 @@ class EnvRenderer(pyglet.window.Window):
                       samples=4,
                       depth_size=16,
                       double_buffer=True)
-        super().__init__(width, height, config=conf, resizable=True, vsync=False, *args, **kwargs)
+        super().__init__(width, height, resizable=True, vsync=False, *args, **kwargs)
 
         # gl init
         glClearColor(9/255, 32/255, 87/255, 1.)
